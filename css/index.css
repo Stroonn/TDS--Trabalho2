@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.topo {
+  margin-left: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  height: 50px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #ababab;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+#logofooter {
+  margin: 0.7rem;
+  height: 50px;
+}
+
+.Desenvolvedores {
+  display: inline-block;
+  margin-left: 0.4rem;
+  margin-bottom: 0.7rem;
+}

@@ -1,0 +1,145 @@
+.main {
+  background-color: #808080;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+} 
+
+.biblioteca {
+  margin-top: 2rem;
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15rem;
+  height: 30rem;
+}
+
+.jogos {
+  border: #ffff 2px solid;
+  background-color: #bbbbbb;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 30rem;
+  overflow: auto;
+}
+
+#addjogo {
+  border-radius: 3px;
+  margin: 2%;
+  width: 14rem;
+  height: 3rem;
+}
+
+.capa {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.3rem;
+  margin-right: 0.5rem;
+}
+
+.jogo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0.5rem;
+  white-space: nowrap;
+}
+
+#recentes {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  width: 53rem;
+  height: 12rem;
+}
+
+.pesquisa {
+  display: flex;
+}
+
+.pesquisa input {
+  border-radius: 5px;
+  width: 20rem;
+}
+
+#barrapesquisa {
+  margin-left: 4rem;
+}
+
+#lista {
+  border: #ffff 2px solid;
+  border-radius: 7px;
+  background-color: #bbbbbb;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  overflow: auto;
+}
+
+.card {
+  margin: 1rem;
+}
+
+.card-img-top {
+  width: 6rem;
+  height: 6rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.info a {
+  background-color: #00AB78;
+  border: #FFFF;
+}
+
+.card-body {
+  margin: 0;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.trofeus {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15rem;
+  height: 30rem;
+}
+
+.trofeu {
+  border: #ffff 2px solid;
+  border-radius: 7px;
+  background-color: #e0d2d2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  white-space: nowrap;
+  width: 15rem;
+  height: 30rem;
+  overflow: auto;
+}
+
+.conquista {
+  margin: 0.3rem;
+  display: block;
+}
+
+.trof {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.1rem;
+  margin-right: 0.3rem;
+}
